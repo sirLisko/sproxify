@@ -1,7 +1,7 @@
 {
 	"name": "Sproxify",
-	"version": "0.1",
-	"description": "This extension intercept spotify links and let you choose where to play it.",
+	"version": "0.1.1",
+	"description": "Sproxify intercepts Spotify links and let you choose where to play it.",
 	"manifest_version": 2,
 	"content_scripts": [
 		{
@@ -13,5 +13,10 @@
 			"css": ["style.css"],
 			"js": ["base.js"]
 		}
-	]
+	],
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	}
 }
