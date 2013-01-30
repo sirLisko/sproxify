@@ -3,10 +3,10 @@
 // @description   Sproxify intercepts Spotify links and let you choose where to play it.
 // @author        Luca Lischetti <sirlisko@gmail.com>
 // @namespace     http://github.com/sirLisko/sproxify
-// @include       "http://open.spotify.com/*",
-// @include       "https://open.spotify.com/*",
-// @include       "https://play.spotify.com/*"
-// @version       0.1.1
+// @include       http://open.spotify.com/*
+// @include       https://open.spotify.com/*
+// @include       https://play.spotify.com/*
+// @version       0.1.2
 // ==/UserScript==
 
 (function(){
