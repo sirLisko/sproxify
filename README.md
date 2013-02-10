@@ -1,6 +1,6 @@
 sproxify
 ========
-![image](http://raw.github.com/sirLisko/sproxify/master/images/sproxify-icon.png)
+![image](https://raw.github.com/sirLisko/sproxify/master/images/sproxify-icon.png)
 
 Sproxify intercepts Spotify links and let you choose where to play it.
 
