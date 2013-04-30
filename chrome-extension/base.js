@@ -6,7 +6,7 @@
 		button.className = 'sproxify sproxify-app';
 		button.href = 'spotify' + window.location.pathname.replace(/\//g, ':');
 		button.innerHTML = 'Play me in Spotify App!';
-		var login = document.getElementById('login-method');
+		var login = document.getElementById('login-features');
 		if(login){
 			login.appendChild(button);
 		} else {

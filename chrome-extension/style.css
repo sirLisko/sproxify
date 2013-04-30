@@ -1,5 +1,5 @@
 .sproxify,
-#login-method .sproxify {
+#login-features .sproxify {
 	background-color: #9eca3b;
 	background-image: -webkit-gradient(linear,0 0,0 100%,from(#acd341),to(#88bd32));
 	background-image: -webkit-linear-gradient(top,#acd341,#88bd32);
@@ -23,7 +23,7 @@
 	z-index: 1;
 }
 .sproxify:hover,
-#login-method .sproxify:hover {
+#login-features .sproxify:hover {
 	background-color: #a1cf3c;
 	background-image: -webkit-gradient(linear,0 0,0 100%,from(#b2db42),to(#88bd32));
 	background-image: -webkit-linear-gradient(top,#b2db42,#88bd32);
@@ -35,12 +35,12 @@
 	text-decoration: none;
 	text-shadow: 0 -1px 0 #72942a;
 }
-#login-method .sproxify {
+#login-features .sproxify {
 	display: block;
 	font-weight: bold;
-	margin: 170px 33px;
+	margin-top: 25px;
 	z-index: 999;
 }
 .sproxify-web {
-	margin: -5px 150px;
+	margin: -5px 170px;
 }
