@@ -1,5 +1,4 @@
-.sproxify,
-#login-features .sproxify {
+.sproxify {
 	background-color: #9eca3b;
 	background-image: -webkit-gradient(linear,0 0,0 100%,from(#acd341),to(#88bd32));
 	background-image: -webkit-linear-gradient(top,#acd341,#88bd32);
@@ -10,20 +9,22 @@
 	border-radius: 4px;
 	-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,0.8);
 	box-shadow: inset 0 1px 1px rgba(255,255,255,0.8);
-	display: block;
+	display: block !important;
 	color: #FFF;
 	font-family: "HelveticaNeueW02-75Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	padding: 1em 1.5em;
-	position: absolute;
+	position: fixed;
+	right: 30px;
 	text-align: center;
 	text-decoration: none;
 	text-shadow: 0 -1px 0 #72942a;
+	top: 30px;
 	z-index: 1;
 }
-.sproxify:hover,
-#login-features .sproxify:hover {
+
+.sproxify:hover {
 	background-color: #a1cf3c;
 	background-image: -webkit-gradient(linear,0 0,0 100%,from(#b2db42),to(#88bd32));
 	background-image: -webkit-linear-gradient(top,#b2db42,#88bd32);
@@ -34,13 +35,4 @@
 	box-shadow: inset 0 1px 1px rgba(255,255,255,0.8);
 	text-decoration: none;
 	text-shadow: 0 -1px 0 #72942a;
-}
-#login-features .sproxify {
-	display: block;
-	font-weight: bold;
-	margin-top: 25px;
-	z-index: 999;
-}
-.sproxify-web {
-	margin: -5px 170px;
 }

@@ -1,6 +1,6 @@
 {
 	"name": "Sproxify",
-	"version": "0.1.3",
+	"version": "0.2.0",
 	"description": "Sproxify intercepts Spotify links and let you choose where to play it.",
 	"manifest_version": 2,
 	"content_scripts": [
